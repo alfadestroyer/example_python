@@ -3,5 +3,10 @@
 print("2")
 print(2)
 
-#  Enteros
+# Enteros
+
 print(0x123)
+
+# Flotantes
+
+print(3E8)
