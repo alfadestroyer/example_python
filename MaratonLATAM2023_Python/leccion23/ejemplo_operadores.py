@@ -31,3 +31,7 @@ print(6 // 3)
 print(6 // 3.)
 print(6. // 3)
 print(6. // 3.)
+
+# Operador con Residuo (módulo)-(%).
+print("Residuo.")
+print(14 % 4)
