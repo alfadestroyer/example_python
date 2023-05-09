@@ -8,3 +8,9 @@ print(2 ** 3)
 print(2 ** 3.)
 print(2. ** 3)
 print(2. ** 3.)
+
+# Operador con Multiplicacion
+print(2 * 3)
+print(2 * 3.)
+print(2. * 3)
+print(2. * 3.)
