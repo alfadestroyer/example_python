@@ -10,3 +10,8 @@ print(0x123)
 # Flotantes
 
 print(3E8)
+
+# Cadenas
+
+print("Me gusta\" Monty Python\"")
+print('Me gusta " Monty Python "')
