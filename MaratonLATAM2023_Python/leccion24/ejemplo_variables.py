@@ -15,3 +15,9 @@ var = 1
 print(var)
 var = var + 1
 print(var)
+
+print("ejemplo 4.")
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
