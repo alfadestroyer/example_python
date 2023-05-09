@@ -35,3 +35,13 @@ print(6. // 3.)
 # Operador con Residuo (módulo)-(%).
 print("Residuo.")
 print(14 % 4)
+
+# Operadores Unarios(+,-).
+print("Operador con suma.")
+print(-4 + 4)
+print(-4. + 8)
+
+print("Operador Unario con resta.") 
+print(-4 - 4)
+print(4. - 8)
+print(-1.1)
