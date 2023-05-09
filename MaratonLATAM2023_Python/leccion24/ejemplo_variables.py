@@ -21,3 +21,11 @@ a = 3.0
 b = 4.0
 c = (a ** 2 + b ** 2) ** 0.5
 print("c =", c)
+
+print("ejemplo 5.")
+juan = 3
+maria = 5
+pablo = 6
+print(juan, maria, pablo, sep=',')
+total_manzanas = juan + maria + pablo
+print(total_manzanas)
