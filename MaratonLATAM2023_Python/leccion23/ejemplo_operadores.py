@@ -45,3 +45,7 @@ print("Operador Unario con resta.")
 print(-4 - 4)
 print(4. - 8)
 print(-1.1)
+
+# Operadores y Parentesis.
+print("Operadores y Parentesis.")
+print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
