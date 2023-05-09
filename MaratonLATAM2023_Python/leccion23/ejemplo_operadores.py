@@ -18,9 +18,16 @@ print(2 * 3.)
 print(2. * 3)
 print(2. * 3.)
 
-# OPerador de Division(/).
-print("Division.)")
+# Operador de Division simple(/).
+print("Division simple.")
 print(6 / 3)
 print(6 / 3.)
 print(6. / 3)
 print(6. / 3.)
+
+# Operador con Division entera(//).
+print("Division entera.")
+print(6 // 3)
+print(6 // 3.)
+print(6. // 3)
+print(6. // 3.)
