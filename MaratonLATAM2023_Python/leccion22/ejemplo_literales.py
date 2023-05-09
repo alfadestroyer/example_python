@@ -25,3 +25,8 @@ print(True < False)
 # Con valor numerico(entero)
 print(10 > 50)
 print(10 < 50)
+
+# Funcion 'Print()' usando caracteres de nueva linea(\n)
+# y de escape
+
+print("\"Estoy\"" , "\n\"\"aprendiendo\"\"" , "\n\"\"\"Python\"\"\"")
