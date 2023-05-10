@@ -49,3 +49,20 @@ print(-1.1)
 # Operadores y Parentesis.
 print("Operadores y Parentesis.")
 print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
+
+# Operadores Abreviados.
+x = input("ingrese un numero: ")
+x = x * 2
+print(x)
+
+# ejemplo 2.
+sheep = int(input("ingrese un numero: "))
+sheep = sheep + 1
+print(sheep)
+
+# ejemplo 3.
+x = input("ingrese primer numero: ")
+sheep = int(input("ingrese segundo numero: "))
+x *= 2
+sheep += 1
+print(x , sheep)
