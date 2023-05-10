@@ -29,3 +29,13 @@ pablo = 6
 print(juan, maria, pablo, sep=',')
 total_manzanas = juan + maria + pablo
 print(total_manzanas)
+
+print("ejemplo 6.")
+kilometros = float(input("ingrese los kilometros: "))
+millas = float(input("ingrese las millas: "))
+
+millas_a_kilometros = millas * 1.61
+kilometros_a_millas = kilometros / 1.61
+
+print(kilometros, "kilómetros son", round(kilometros_a_millas, 2), "millas")
+print(millas, "millas son", round(millas_a_kilometros, 2), "kilómetros")
