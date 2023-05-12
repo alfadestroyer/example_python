@@ -22,6 +22,11 @@ leg_a = float(input("Ingresa la longitud del primer cateto: "))
 leg_b = float(input("Ingresa la longitud del segundo cateto: "))
 print("La longitud de la hipotenusa es:", (leg_a**2 + leg_b**2) ** .5)
 
+print("Ejemplo 3.3")
+leg_a = float(input("Ingresa la longitud del primer cateto: "))
+leg_b = float(input("Ingresa la longitud del segundo cateto: "))
+print("La longitud de la hipotenusa es " + str((leg_a**2 + leg_b**2) ** .5))
+
 # Ejemplo 4.
 print("Ejemplo 4.")
 nombre = input("¿Me puedes dar tu nombre por favor? ")
