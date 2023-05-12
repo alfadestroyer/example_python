@@ -39,3 +39,14 @@ print("Ejemplo 5.")
 x = float(input("Ingresa el valor para x: "))
 y = 1./(x + 1./(x + 1./(x + 1./x)))
 print("y =", y)
+
+# Ejemplo 6.
+print("Ejemplo 6.")
+horas = int(input("Hora de inicio (horas): "))
+minutos = int(input("Minuto de inicio (minutos): "))
+duracion = int(input("Duración del evento (minutos): "))
+minutos = minutos + duracion # encuentra el número total de minutos
+horas = horas + minutos // 60 # encuentra el número de horas ocultas en los minutos y actualiza las horas
+minutos = minutos % 60 # corrige los minutos para que estén en un rango de (0..59)
+horas = horas % 24 # corrige las horas para que estén en un rango de (0..23) 
+print(horas, ":", minutos, sep='')
