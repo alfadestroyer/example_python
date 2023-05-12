@@ -40,3 +40,16 @@ var = 0  # Asignando 0 a var
 print(var >= 0) 
 var = 10  # Asignando 10 a var
 print(var >= 20)
+
+# Operador menor o igual que (<=).
+print("Ejemplo con el operador menor o igual que (<=).")
+print("compara dos valores en una variable")
+var = 0  # Asignando 0 a var
+print(var <= 0) 
+var = 10  # Asignando 10 a var
+print(var <= 20)
+
+# Ejercicio de muestra.
+print("Ejercicio de muestra")
+n = int(input("Ingresa un número: "))
+print("El numero es mayor o igual a 100: " , n >= 100)
