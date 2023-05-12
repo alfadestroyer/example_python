@@ -33,3 +33,9 @@ nombre = input("¿Me puedes dar tu nombre por favor? ")
 apellido = input("¿Me puedes dar tu apellido por favor? ")
 print("Gracias. ")
 print("\nTu nombre es " + nombre + " " + apellido + ".")
+
+# Ejemplo 5.
+print("Ejemplo 5.")
+x = float(input("Ingresa el valor para x: "))
+y = 1./(x + 1./(x + 1./(x + 1./x)))
+print("y =", y)
