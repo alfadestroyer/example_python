@@ -72,7 +72,7 @@ def play_game():
                 break
         if len(make_list_of_free_fields(board)) == 0:
             display_board(board)
-            print(""±±±±±± Es un empate! ±±±±±±")
+            print("±±±±±± Es un empate! ±±±±±±")
             break
 
 def enter_move(board):
