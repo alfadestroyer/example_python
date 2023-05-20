@@ -67,3 +67,63 @@ else: numero_mayor = numero_2
 if numero_3 > numero_mayor: numero_mayor = numero_3
  
 print("El número mayor es: ", numero_mayor)
+
+# Ejercicio con funcion max()
+print("Ejemplo con la funcion max().")
+print("Ejemplo 2.2.")
+
+numero_1 = int(input("Ingresa el primer número: "))
+numero_2 = int(input("Ingresa el segundo número: "))
+numero_3 = int(input("Ingresa el tercer número: "))
+ 
+numero_mayor = max(numero_1, numero_2, numero_3)
+ 
+print("El número mayor es: ", numero_mayor)
+
+# Ejercicio con funcion min()
+print("Ejemplo con la funcion min().")
+print("Ejemplo 2.3.")
+
+numero_1 = int(input("Ingresa el primer número: "))
+numero_2 = int(input("Ingresa el segundo número: "))
+numero_3 = int(input("Ingresa el tercer número: "))
+ 
+numero_menor = min(numero_1, numero_2, numero_3)
+ 
+print("El número menor es: ", numero_menor)
+
+# Ejercicio con funcion round().
+
+print("Ejercicio con funcion round()")
+print("Ejemplo calculo de impuesto anual")
+
+ingreso_anual = float(input("Introduce el ingreso anual: "))
+
+if ingreso_anual < 85528:
+	impuesto_anual = ingreso_anual * 0.18 - 556.02
+else:
+	impuesto_anual = (ingreso_anual - 85528) * 0.32 + 14839.02
+
+if impuesto_anual < 0.0:
+	impuesto_anual = 0.0
+
+impuesto_anual = round(impuesto_anual, 0)
+print("El impuesto anual es: ", impuesto_anual, "pesos")
+
+# Ejercicio para definir un año bisiesto
+
+print("Ejercicio para definir un año bisiesto")
+year = int(input("Introduce un año: "))
+
+if year < 1582:
+	print("No esta dentro del período del calendario Gregoriano")
+else:
+	if year % 4 != 0:
+		print("Año Común")
+	elif year % 100 != 0:
+		print("Año Bisiesto")
+	elif year % 400 != 0:
+		print("Año Común")
+	else:
+		print("Año Bisiesto")	
+ 
