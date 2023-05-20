@@ -237,7 +237,7 @@ while True:
     
     score = int(input("Ingresa la calificación del estudiante (0-10): "))
     if score not in range(0, 11):
-	    break
+        break
     
     if name in school_class:
         school_class[name] += (score,)
